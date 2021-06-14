@@ -1,0 +1,97 @@
+<html>
+<head>
+<title> good </title>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+body {
+  counter-reset: section;
+}
+
+h2::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100px;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<marquee><h1> alwayz number one </h1></marquee>
+<p>This is my address that you can find me.</p>
+
+<address>
+Written by nkurunziza.<br> 
+Visit me at:<br>
+nkurunziza.com<br>
+Box 64, kigali<br>
+Rwanda
+</address>
+<h1> the following cities are capital city of easterafrican countries </h1>
+<div class="city">
+<h2>kampara</h2>
+<p>kampara is the capital of Uganda.</p>
+</div> 
+
+<div class="city">
+<h2>nairobi</h2>
+<p>nairobi is the capital of kenya.</p>
+</div>
+
+<div class="city">
+<h2>kigali</h2>
+<p>kigali is the capital of Rwanda.</p>
+</div>
+<p> what are you going to display </p>
+<p>I will display a</p>
+<p>I will display &nbsp; &#771;</p>
+<p>I will display a&#771;</p>
+<h1>Using CSS Counters:</h1>
+<h2>all questions</h2>
+<h2> three questions</h2>
+<h2>one question</h2>
+</div>
+<div class="gallery">
+  <a target="_blank" href="YT.jpg">
+    <img src="YT.JPG" width="400px" height="400px">
+  </a>
+  <div class="desc">KNOWLEGE FROM HERE</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="YY.jpg">
+    <img src="YY.JPG" width="400px" height="400px">
+  </a>
+  <div class="desc">don,t warry</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="mine.jpg">
+    <img src="mine.JPG" width="400px" height="400px">
+  </a>
+  <div class="desc">beatiful</div>
+</div>
+<a href="team.html"><h1>click</h1></a>
+</body>
+</html>
